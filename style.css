@@ -1,0 +1,179 @@
+:root{
+    --primary-color: blue;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+img{
+    width: 100%;
+}
+i{
+    font-size: 15px;
+    padding-right: 5px;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 100%;
+    
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+/*First Nav*/
+.login-section{
+    width: 100%;
+    height: 80px;
+    padding: 0 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.first-header-content{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.first-header-content .logo{
+    width: 150px;
+}
+.first-header-content .trading{
+    display: flex;
+}
+.trading i{
+    color: green;
+    font-size: 25px;
+    padding-top: 5px;
+}
+.trading p,
+.content p{
+    color: grey;
+    font-size: 15px;
+}
+.content strong{
+    color: black;
+}
+.account-details{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 150px;
+}
+
+.open a,
+.login a{
+    text-decoration: none;
+    border: 1px solid var(--primary-color);
+    padding: 10px 10px;
+    font-size: 15px;
+}
+.login a{
+    background: var(--primary-color);
+    color: white;
+}
+.country{
+    width: 60px;
+    display: flex;
+    padding: 10px 10px;
+    border: 1px solid grey;
+    align-items: center;
+    justify-content: center;   
+}
+.country img{
+    width:50%;
+}
+.country h3{
+    color: grey;
+    padding-left: 5px;
+    font-size: 15px;
+}
+/*Second Nav*/
+.navigation{
+    width: 100%;
+    height: 50px;
+    background: var(--primary-color);
+    color: white;
+    padding: 0 100px;
+}
+.navigation ul{
+    align-items: center;
+}
+.navigation ul li{
+    display: inline-block;
+    list-style: none;
+    align-items: center;
+    padding: 15px 10px;
+}
+.navigation ul li a{
+    text-decoration: none;
+    color: white;
+    align-items: center;
+}
+
+/*Register Section*/
+.register{
+    width:100%;
+    padding-top: 2px;
+}
+.register-form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.register-form h1{
+    font-size: 1.7rem;
+    padding-bottom: 20px;
+}
+.register-form form{
+   width: 800px;
+   height: 460px;
+   background: whitesmoke;
+   border-radius: 2px;
+}
+.register-form .row{
+    width: 100%;
+    display: flex;
+    margin: 10px auto;
+    padding: 5px 10px;
+}
+.row .input50{
+    width: 100%;
+    margin: 0 15px;
+}
+.row .input50 label{
+    font-size: 15px;
+    color: black;
+}
+.row .input50 input,
+.row .input50 select{
+    width: 100%;
+    font-size: 16px;
+    padding: 10px 5px;
+    margin-top: 10px;
+    border: 1px solid gray;
+    outline: none;
+}
+.input50 p{
+    font-size: 12px;
+    line-height: 1.3;
+}
+
+.input50 .click-register{
+    display: inline-block;
+    width: 100%;
+    font-size: 15px;
+    background: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 15px;
+}
